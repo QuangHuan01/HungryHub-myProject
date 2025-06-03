@@ -1,16 +1,8 @@
-import React from "react";
-import HeaderAdmin from "../pages/admin/HeaderAdmin";
-import { Outlet } from "react-router-dom";
-import FooterAdmin from "../pages/admin/FooterAdmin";
-
+import SidebarAdmin from "../components/AdminComponent/SidebarAdmin";
 const PrivateLayout = () => {
   return (
     <>
-      <HeaderAdmin />
-      <main>
-        <Outlet />
-      </main>
-      <FooterAdmin />
+      <SidebarAdmin />
     </>
   );
 };

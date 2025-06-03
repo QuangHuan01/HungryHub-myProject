@@ -1,7 +1,7 @@
 import React from "react";
 
 const DashBoard = () => {
-  return <div>DashBoard</div>;
+  return <div className="bg-black">hehehe</div>;
 };
 
 export default DashBoard;

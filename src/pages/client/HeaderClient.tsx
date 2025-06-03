@@ -1,28 +1,41 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { logo } from "../../assets/image/img";
+import { IoMenu } from "react-icons/io5";
+import ContactInfo from "../../components/HeaderComponent/ContactInfo";
+import LogoHeader from "../../components/HeaderComponent/LogoHeader";
+import MainNav from "../../components/HeaderComponent/MainNav";
+import SearchHeader from "../../components/HeaderComponent/SearchHeader";
+import UserNav from "../../components/HeaderComponent/UserNav";
 
 const HeaderClient = () => {
   return (
-    <>
-      <div>
-        <img src={logo} alt="" />
+    <header className="bg-white fixed top-0 left-0 w-full z-50 ">
+      <div className="bg-white shadow-lg z-50 flex justify-between py-4 px-60">
+        <span className="text-2xl">
+          <IoMenu />
+        </span>
+        <nav>
+          <MainNav />
+        </nav>
+        <div>
+          <ContactInfo />
+        </div>
       </div>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/menu">Menu</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
-    </>
+      {/* search */}
+      <div>
+        <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-between">
+          <div>
+            <LogoHeader />
+          </div>
+          <div>
+            <SearchHeader />
+          </div>
+          <div>
+            <div>
+              <UserNav />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 };
 

@@ -7,7 +7,9 @@ const PulicLayout = () => {
   return (
     <>
       <HeaderClient />
-      <Outlet />
+      <div className="pt-40">
+        <Outlet />
+      </div>
       <FooterClient />
     </>
   );

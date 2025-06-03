@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "email": "gaiguitthoi@gmail.com",
+      "password": "$2a$10$R1ODn5CP8AU0w8FEUGWWx.lISVIhtB3anF.af3boUPckJMg1OKyBy",
+      "username": "QuangHuans",
+      "id": 2
+    },
+    {
+      "email": "nquanghuan0806@gmail.com",
+      "password": "$2a$10$UXu9lejEqr4icS.bl8v70OLSe992YkmG7N8VEKmeN1AU81karhZie",
+      "username": "QuangHuans",
+      "id": 3
+    },
+    {
+      "email": "Huan@gmail.com",
+      "password": "$2a$10$1m.oTy.aOqksYw3PeABYj.6hYLtEyLbrK8eE3OB9U17x4.cqM0i4K",
+      "username": "QuangHuans",
+      "id": 4
+    }
+  ]
+}
